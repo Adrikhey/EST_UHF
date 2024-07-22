@@ -1,6 +1,8 @@
 # EST_UHF
 Demodulation scripts of the UHF Ground Station of the EPFL Spacecraft Team
 
+This GNU Radio script uses the gr-satellites and gr-gpredict-doppler libraries.
+
 ## Soapy PLUTO Source
 This block interfaces the script with the PlutoSDR, providing input parameters
 such as the sample rate and the center frequency for the local oscillator. The
